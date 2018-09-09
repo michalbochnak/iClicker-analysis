@@ -1,0 +1,446 @@
+<!--**************** Naming Convention **********-->
+<!--qn : Question Name-->
+<!--quuid : Question Universally Unique Identifier-->
+<!--resp : Response prefix-->
+<!--strt : Start Time-->
+<!--stp : Stop Time-->
+<!--isspp : is self paced polling-->
+<!--isap : is Anonymous polling-->
+<!--qType : Question Type-->
+<!--sig : Significiant Characters-->
+<!--idx : Question Index (SrNo)-->
+<!--cans : Correct answer-->
+<!--ssn : Session tag-->
+<!--v : Voting-->
+<!--ans : Final Response recorded-->
+<!--fans : first response-->
+<!--id : Clicker ID-->
+<!--scr : Score-->
+<!--fanst : Final answer time-->
+<!--att : Number of attempts-->
+<!--tm : Time-->
+<!--lto : Loaned clicker to-->
+<!--p : Polling tag name-->
+<!--part : Participation Points-->
+<!--perf : performance points-->
+<!--minrep : Minimum reply-->
+<!--ssnn : Session Name-->
+<!--anspt : Correct answer points-->
+<!--tscr : total score across polling questions for the student-->
+<!--isDel : flag to indicate whether the quesiton is deleted-->
+<!--MinPart_S : store the Participation Requirement setting as it was selected in i>clicker -> Scoring tab-->
+<!--anypt : this tag will be used to store response any choice points-->
+<!--File naming convention : for example if the file name is 'L1309231102.xml'-->
+<!--L - Indication that this is a session log file the deleted session files will prefix with x-->
+<!--13 - Year-->
+<!--09 - Month-->
+<!--23 - Day-->
+<!--11 - Hour-->
+<!--02 - Minute-->
+<!--******************************************-->
+<ssn cdts="" perf="-1" suuid="00000000-0000-0000-0000-000000000000" MinPart_S="at least 50% of the questions" ssnn="Session 4" part="1" minrep="2">
+ <p resp_c="19||0.00" isDel="N" isap="N" quuid="00000000-0000-0000-0000-000000000000" sig="16" anypt="0" stp="13:14:11" idx="1" resp_b="66||0.00" resp_a="12||0.00" isspp="N" anspt="1" cans="B" strt="13:12:52" qn="Question 1" resp_d="1||0.00" resp_e="0||0.00" qType="MC">
+  <v att="4" scr="0.00" fans="A" ans="B" tm="24.50" id="#0FF2AB56" lto="" fanst="68.21" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="41.53" id="#18F6EB05" lto="" fanst="41.53" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="34.65" id="#32F4DD1B" lto="" fanst="77.75" tscr="1"/>
+  <v att="7" scr="0.00" fans="A" ans="B" tm="42.72" id="#33692278" lto="" fanst="78.58" tscr="1"/>
+  <v att="8" scr="0.00" fans="C" ans="C" tm="4.63" id="#359952FE" lto="" fanst="12.49" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="27.67" id="#37025267" lto="" fanst="27.67" tscr="1"/>
+  <v att="8" scr="0.00" fans="A" ans="B" tm="6.24" id="#38076857" lto="" fanst="45.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="47.30" id="#3AD27F97" lto="" fanst="47.30" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="A" tm="19.99" id="#3B7B5D1D" lto="" fanst="55.61" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="23.19" id="#81169700" lto="" fanst="23.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="26.81" id="#8181C0C0" lto="" fanst="26.81" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="33.72" id="#844F18D3" lto="" fanst="33.72" tscr="1"/>
+  <v att="19" scr="0.00" fans="B" ans="B" tm="3.59" id="#85544293" lto="" fanst="18.26" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="B" tm="7.74" id="#863D5FE4" lto="" fanst="75.40" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="23.84" id="#88E085ED" lto="" fanst="52.81" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="35.96" id="#8A20C66C" lto="" fanst="35.96" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="21.20" id="#8B5DE036" lto="" fanst="21.20" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="45.30" id="#8DEEA3C0" lto="" fanst="45.30" tscr="1"/>
+  <v att="6" scr="0.00" fans="C" ans="B" tm="0.27" id="#8ECE1D5D" lto="" fanst="34.00" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="22.65" id="#9006AE38" lto="" fanst="35.00" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="B" tm="2.78" id="#901443C7" lto="" fanst="18.87" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="10.79" id="#90145EDA" lto="" fanst="11.38" tscr="1"/>
+  <v att="21" scr="0.00" fans="C" ans="B" tm="30.34" id="#901F3AB5" lto="" fanst="75.21" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="5.18" id="#90C26A38" lto="" fanst="18.17" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="B" tm="8.17" id="#91F68DEA" lto="" fanst="19.23" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="B" tm="2.17" id="#96F72D4C" lto="" fanst="65.22" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="16.51" id="#97482DF2" lto="" fanst="63.80" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="4.37" id="#97A07047" lto="" fanst="4.37" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="A" tm="30.55" id="#97A98AB4" lto="" fanst="35.56" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="C" tm="16.58" id="#97D6B6F7" lto="" fanst="17.17" tscr="1"/>
+  <v att="" scr="" fans="" ans="" tm="" id="#97D8B2FD" lto="" fanst="" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="24.64" id="#9841D801" lto="" fanst="24.64" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="29.28" id="#9842E238" lto="" fanst="68.26" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="30.76" id="#9843F42F" lto="" fanst="37.28" tscr="1"/>
+  <v att="7" scr="0.00" fans="C" ans="B" tm="9.81" id="#984504D9" lto="" fanst="76.73" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="B" tm="14.87" id="#98649864" lto="" fanst="68.86" tscr="1"/>
+  <v att="6" scr="0.00" fans="A" ans="A" tm="13.81" id="#986F1BEC" lto="" fanst="53.23" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="32.78" id="#98EE4A3C" lto="" fanst="32.78" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="17.43" id="#990EB522" lto="" fanst="17.43" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="B" tm="55.19" id="#990ED443" lto="" fanst="69.22" tscr="1"/>
+  <v att="10" scr="0.00" fans="B" ans="B" tm="27.73" id="#990F1E88" lto="" fanst="58.96" tscr="1"/>
+  <v att="9" scr="0.00" fans="A" ans="B" tm="13.18" id="#990F32A4" lto="" fanst="22.83" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="6.79" id="#990FC056" lto="" fanst="6.79" tscr="1"/>
+  <v att="39" scr="0.00" fans="A" ans="B" tm="6.17" id="#990FE97F" lto="" fanst="73.38" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="15.89" id="#99101891" lto="" fanst="27.87" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="1.64" id="#991055DC" lto="" fanst="68.97" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="64.53" id="#99124AC1" lto="" fanst="64.53" tscr="1"/>
+  <v att="8" scr="0.00" fans="C" ans="C" tm="1.67" id="#993A69CA" lto="" fanst="54.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="3.87" id="#9946F52A" lto="" fanst="3.87" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="1.18" id="#9990BAB3" lto="" fanst="1.18" tscr="1"/>
+  <v att="10" scr="0.00" fans="B" ans="C" tm="0.47" id="#99D3C48E" lto="" fanst="25.23" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="-0.00" id="#9AB383AA" lto="" fanst="1.18" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="27.19" id="#9ADCEDAB" lto="" fanst="27.19" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="15.81" id="#9AF4ADC3" lto="" fanst="15.82" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="4.81" id="#9B0265FC" lto="" fanst="10.94" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="B" tm="3.36" id="#9B22DA63" lto="" fanst="76.03" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="B" tm="28.66" id="#9C80A8B4" lto="" fanst="38.27" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="10.69" id="#9CF7640F" lto="" fanst="68.21" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="66.71" id="#9D0C0F9E" lto="" fanst="66.71" tscr="1"/>
+  <v att="5" scr="0.00" fans="B" ans="B" tm="1.69" id="#9D14BC35" lto="" fanst="7.98" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="3.18" id="#9D270FB5" lto="" fanst="68.44" tscr="1"/>
+  <v att="18" scr="0.00" fans="A" ans="B" tm="24.19" id="#9E4F8352" lto="" fanst="42.45" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="20.18" id="#A0079037" lto="" fanst="52.20" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="20.28" id="#A051DE2F" lto="" fanst="73.43" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="18.54" id="#A05624D2" lto="" fanst="43.19" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="20.63" id="#A0681FD7" lto="" fanst="24.70" tscr="1"/>
+  <v att="13" scr="0.00" fans="C" ans="B" tm="0.40" id="#A06E0CC2" lto="" fanst="73.13" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="2.41" id="#A0713AEB" lto="" fanst="2.41" tscr="1"/>
+  <v att="16" scr="0.00" fans="B" ans="B" tm="9.64" id="#A073EA39" lto="" fanst="68.67" tscr="1"/>
+  <v att="9" scr="0.00" fans="C" ans="C" tm="0.37" id="#A0818CAD" lto="" fanst="6.93" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="B" tm="5.69" id="#A087E2C5" lto="" fanst="59.20" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="0.09" id="#A0960137" lto="" fanst="0.70" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="6.69" id="#A09D6A57" lto="" fanst="67.34" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="16.31" id="#A0AB101B" lto="" fanst="16.31" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="9.18" id="#A0AB1D16" lto="" fanst="61.83" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="31.79" id="#A0ADF9F4" lto="" fanst="72.43" tscr="1"/>
+  <v att="20" scr="0.00" fans="A" ans="B" tm="2.43" id="#A0B81B03" lto="" fanst="28.65" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="13.42" id="#A0CE1E70" lto="" fanst="67.49" tscr="1"/>
+  <v att="6" scr="0.00" fans="C" ans="B" tm="44.27" id="#A0D75324" lto="" fanst="78.69" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="B" tm="0.34" id="#A0D782F5" lto="" fanst="25.22" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="15.65" id="#A0D8156D" lto="" fanst="15.65" tscr="1"/>
+  <v att="10" scr="0.00" fans="B" ans="B" tm="0.38" id="#A0E81E56" lto="" fanst="78.38" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="B" tm="31.63" id="#A0EF256A" lto="" fanst="62.87" tscr="1"/>
+  <v att="5" scr="0.00" fans="B" ans="B" tm="24.26" id="#A0EF9ED1" lto="" fanst="72.91" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="A" tm="0.31" id="#A0F5FEAB" lto="" fanst="69.35" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="17.42" id="#A0FBA8F3" lto="" fanst="17.42" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="54.58" id="#A0FF035C" lto="" fanst="54.58" tscr="1"/>
+  <v att="8" scr="0.00" fans="B" ans="B" tm="3.74" id="#A0FF1D42" lto="" fanst="72.52" tscr="1"/>
+  <v att="6" scr="0.00" fans="B" ans="B" tm="7.32" id="#A14CD538" lto="" fanst="70.78" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="3.22" id="#A1CE6D02" lto="" fanst="3.22" tscr="1"/>
+  <v att="8" scr="0.00" fans="C" ans="C" tm="7.83" id="#A2368410" lto="" fanst="37.19" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="B" tm="3.63" id="#A3551EE8" lto="" fanst="35.87" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="40.20" id="#A3DBF981" lto="" fanst="40.20" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="D" tm="52.72" id="#A562F93E" lto="" fanst="54.19" tscr="0"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="64.43" id="#A5A2FFF8" lto="" fanst="64.43" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="30.24" id="#A7910630" lto="" fanst="30.24" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="18.89" id="#A7ADF7FD" lto="" fanst="18.89" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="16.77" id="#A7BB9E82" lto="" fanst="16.77" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="4.44" id="#A7C76C0C" lto="" fanst="69.46" tscr="1"/>
+ </p>
+ <p resp_c="67||0.00" isDel="N" isap="N" quuid="00000000-0000-0000-0000-000000000000" sig="16" anypt="0" stp="13:30:08" idx="2" resp_b="1||0.00" resp_a="4||0.00" isspp="N" anspt="1" cans="C" strt="13:28:21" qn="Question 2" resp_d="26||0.00" resp_e="0||0.00" qType="MC">
+  <v att="5" scr="0.00" fans="C" ans="C" tm="51.37" id="#0FF2AB56" lto="" fanst="76.36" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="D" tm="30.46" id="#18F6EB05" lto="" fanst="42.50" tscr="1"/>
+  <v att="15" scr="0.00" fans="B" ans="C" tm="48.17" id="#32F4DD1B" lto="" fanst="98.01" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="23.77" id="#33692278" lto="" fanst="104.49" tscr="1"/>
+  <v att="14" scr="0.00" fans="C" ans="D" tm="51.60" id="#359952FE" lto="" fanst="93.27" tscr="1"/>
+  <v att="8" scr="0.00" fans="B" ans="C" tm="0.89" id="#37025267" lto="" fanst="105.53" tscr="1"/>
+  <v att="15" scr="0.00" fans="C" ans="C" tm="37.81" id="#38076857" lto="" fanst="58.89" tscr="1"/>
+  <v att="8" scr="0.00" fans="C" ans="C" tm="57.85" id="#3AD27F97" lto="" fanst="66.12" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="20.22" id="#3B7B5D1D" lto="" fanst="31.88" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="D" tm="9.17" id="#81169700" lto="" fanst="33.66" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="25.23" id="#8181C0C0" lto="" fanst="25.23" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="33.23" id="#844F18D3" lto="" fanst="33.23" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="D" tm="48.61" id="#85544293" lto="" fanst="49.17" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="2.23" id="#863D5FE4" lto="" fanst="2.23" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="37.73" id="#88E085ED" lto="" fanst="40.17" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="33.17" id="#8A20C66C" lto="" fanst="33.17" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="8.73" id="#8B5DE036" lto="" fanst="8.73" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="62.97" id="#8DEEA3C0" lto="" fanst="62.97" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="D" tm="23.84" id="#8ECE1D5D" lto="" fanst="102.30" tscr="1"/>
+  <v att="7" scr="0.00" fans="C" ans="C" tm="21.61" id="#9006AE38" lto="" fanst="95.41" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="27.18" id="#901443C7" lto="" fanst="91.91" tscr="1"/>
+  <v att="3" scr="0.00" fans="D" ans="C" tm="18.56" id="#90145EDA" lto="" fanst="96.51" tscr="1"/>
+  <v att="34" scr="0.00" fans="C" ans="C" tm="22.60" id="#901F3AB5" lto="" fanst="103.24" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="C" tm="27.21" id="#90C26A38" lto="" fanst="100.47" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="20.99" id="#91F68DEA" lto="" fanst="48.40" tscr="1"/>
+  <v att="1" scr="0.00" fans="D" ans="D" tm="65.19" id="#96F72D4C" lto="" fanst="65.19" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="51.28" id="#97482DF2" lto="" fanst="90.54" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="18.87" id="#97A07047" lto="" fanst="18.87" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="29.84" id="#97A98AB4" lto="" fanst="94.00" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="37.78" id="#97D6B6F7" lto="" fanst="38.90" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="D" tm="5.95" id="#97D8B2FD" lto="" fanst="83.85" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="13.49" id="#9841D801" lto="" fanst="13.49" tscr="1"/>
+  <v att="7" scr="0.00" fans="D" ans="D" tm="43.40" id="#9842E238" lto="" fanst="103.51" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="27.30" id="#9843F42F" lto="" fanst="101.35" tscr="1"/>
+  <v att="6" scr="0.00" fans="D" ans="C" tm="31.83" id="#984504D9" lto="" fanst="97.44" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="D" tm="17.68" id="#98649864" lto="" fanst="105.46" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="C" tm="24.20" id="#986F1BEC" lto="" fanst="76.55" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="C" tm="40.69" id="#98EE4A3C" lto="" fanst="101.01" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="30.17" id="#990EB522" lto="" fanst="30.77" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="66.87" id="#990ED443" lto="" fanst="66.87" tscr="1"/>
+  <v att="8" scr="0.00" fans="D" ans="D" tm="27.32" id="#990F1E88" lto="" fanst="77.33" tscr="1"/>
+  <v att="9" scr="0.00" fans="B" ans="C" tm="26.57" id="#990F32A4" lto="" fanst="103.25" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="54.38" id="#990FC056" lto="" fanst="55.23" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="27.57" id="#990FE97F" lto="" fanst="87.21" tscr="1"/>
+  <v att="8" scr="0.00" fans="B" ans="C" tm="16.64" id="#99101891" lto="" fanst="103.24" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="B" tm="78.21" id="#991055DC" lto="" fanst="93.85" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="16.10" id="#99124AC1" lto="" fanst="16.10" tscr="1"/>
+  <v att="6" scr="0.00" fans="D" ans="D" tm="36.19" id="#993A69CA" lto="" fanst="48.41" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="20.18" id="#9946F52A" lto="" fanst="102.30" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="14.79" id="#9990BAB3" lto="" fanst="14.79" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="22.80" id="#99D3C48E" lto="" fanst="97.87" tscr="1"/>
+  <v att="1" scr="0.00" fans="D" ans="D" tm="24.18" id="#9AB383AA" lto="" fanst="24.18" tscr="1"/>
+  <v att="2" scr="0.00" fans="E" ans="D" tm="9.87" id="#9ADCEDAB" lto="" fanst="10.64" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="D" tm="30.71" id="#9AF4ADC3" lto="" fanst="101.29" tscr="1"/>
+  <v att="5" scr="0.00" fans="D" ans="C" tm="17.17" id="#9B0265FC" lto="" fanst="99.22" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="14.22" id="#9B22DA63" lto="" fanst="90.96" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="31.19" id="#9C80A8B4" lto="" fanst="54.72" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="C" tm="26.82" id="#9CF7640F" lto="" fanst="90.21" tscr="1"/>
+  <v att="1" scr="0.00" fans="D" ans="D" tm="96.70" id="#9D0C0F9E" lto="" fanst="96.70" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="34.17" id="#9D14BC35" lto="" fanst="92.40" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="D" tm="23.91" id="#9D270FB5" lto="" fanst="104.92" tscr="1"/>
+  <v att="22" scr="0.00" fans="C" ans="C" tm="24.18" id="#9E4F8352" lto="" fanst="105.72" tscr="1"/>
+  <v att="4" scr="0.00" fans="D" ans="C" tm="24.68" id="#A0079037" lto="" fanst="103.24" tscr="1"/>
+  <v att="6" scr="0.00" fans="C" ans="C" tm="12.81" id="#A051DE2F" lto="" fanst="23.72" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="D" tm="37.23" id="#A05624D2" lto="" fanst="92.49" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="D" tm="83.21" id="#A0681FD7" lto="" fanst="83.93" tscr="1"/>
+  <v att="11" scr="0.00" fans="B" ans="D" tm="17.83" id="#A06E0CC2" lto="" fanst="104.67" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="22.86" id="#A0713AEB" lto="" fanst="91.20" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="13.78" id="#A073EA39" lto="" fanst="13.78" tscr="1"/>
+  <v att="7" scr="0.00" fans="B" ans="D" tm="26.77" id="#A0818CAD" lto="" fanst="90.21" tscr="1"/>
+  <v att="4" scr="0.00" fans="D" ans="C" tm="23.68" id="#A087E2C5" lto="" fanst="102.87" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="D" tm="25.18" id="#A0960137" lto="" fanst="87.31" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="C" tm="50.63" id="#A09D6A57" lto="" fanst="98.77" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="D" tm="36.28" id="#A0AB101B" lto="" fanst="42.86" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="30.34" id="#A0AB1D16" lto="" fanst="90.57" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="D" tm="36.37" id="#A0ADF9F4" lto="" fanst="97.93" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="93.32" id="#A0B81B03" lto="" fanst="105.29" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="20.60" id="#A0CE1E70" lto="" fanst="92.21" tscr="1"/>
+  <v att="11" scr="0.00" fans="B" ans="C" tm="68.20" id="#A0D75324" lto="" fanst="95.25" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="41.17" id="#A0D782F5" lto="" fanst="41.17" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="33.89" id="#A0D8156D" lto="" fanst="33.89" tscr="1"/>
+  <v att="38" scr="0.00" fans="C" ans="C" tm="14.21" id="#A0E81E56" lto="" fanst="103.60" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="37.75" id="#A0EF256A" lto="" fanst="89.97" tscr="1"/>
+  <v att="6" scr="0.00" fans="C" ans="C" tm="16.21" id="#A0EF9ED1" lto="" fanst="104.86" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="92.41" id="#A0F5FEAB" lto="" fanst="94.85" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="D" tm="38.29" id="#A0FBA8F3" lto="" fanst="97.23" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="38.94" id="#A0FF035C" lto="" fanst="38.94" tscr="1"/>
+  <v att="9" scr="0.00" fans="B" ans="C" tm="55.40" id="#A0FF1D42" lto="" fanst="87.21" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="C" tm="49.76" id="#A14CD538" lto="" fanst="86.68" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="6.24" id="#A1CE6D02" lto="" fanst="6.24" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="C" tm="7.51" id="#A2368410" lto="" fanst="58.32" tscr="1"/>
+  <v att="2" scr="0.00" fans="D" ans="D" tm="7.71" id="#A3551EE8" lto="" fanst="92.60" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="47.83" id="#A3DBF981" lto="" fanst="93.21" tscr="1"/>
+  <v att="" scr="" fans="" ans="" tm="" id="#A562F93E" lto="" fanst="" tscr="0"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="102.97" id="#A5A2FFF8" lto="" fanst="102.97" tscr="1"/>
+  <v att="1" scr="0.00" fans="D" ans="D" tm="29.84" id="#A7910630" lto="" fanst="29.84" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="17.26" id="#A7ADF7FD" lto="" fanst="100.83" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="47.92" id="#A7BB9E82" lto="" fanst="47.92" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="C" tm="35.59" id="#A7C76C0C" lto="" fanst="48.17" tscr="1"/>
+ </p>
+ <p resp_c="11||0.00" isDel="N" isap="N" quuid="00000000-0000-0000-0000-000000000000" sig="16" anypt="0" stp="13:36:04" idx="3" resp_b="2||0.00" resp_a="84||0.00" isspp="N" anspt="1" cans="A|C" strt="13:35:04" qn="Question 3" resp_d="1||0.00" resp_e="0||0.00" qType="MC">
+  <v att="4" scr="0.00" fans="A" ans="A" tm="5.73" id="#0FF2AB56" lto="" fanst="14.71" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="A" tm="7.18" id="#18F6EB05" lto="" fanst="26.90" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="A" tm="37.19" id="#32F4DD1B" lto="" fanst="45.86" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="9.96" id="#33692278" lto="" fanst="11.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="11.33" id="#359952FE" lto="" fanst="11.33" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="23.75" id="#37025267" lto="" fanst="23.75" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="14.61" id="#38076857" lto="" fanst="21.32" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="A" tm="5.87" id="#3AD27F97" lto="" fanst="14.19" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="13.24" id="#3B7B5D1D" lto="" fanst="17.18" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="0.65" id="#81169700" lto="" fanst="1.49" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="3.00" id="#8181C0C0" lto="" fanst="3.00" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="1.24" id="#844F18D3" lto="" fanst="56.29" tscr="1"/>
+  <v att="6" scr="0.00" fans="A" ans="A" tm="15.18" id="#85544293" lto="" fanst="22.65" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="0.92" id="#863D5FE4" lto="" fanst="0.92" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="33.78" id="#88E085ED" lto="" fanst="36.87" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="19.19" id="#8A20C66C" lto="" fanst="19.19" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="2.93" id="#8B5DE036" lto="" fanst="4.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="36.66" id="#8DEEA3C0" lto="" fanst="36.66" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="3.83" id="#8ECE1D5D" lto="" fanst="3.83" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="A" tm="0.00" id="#9006AE38" lto="" fanst="11.90" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="19.23" id="#901443C7" lto="" fanst="58.29" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="0.06" id="#90145EDA" lto="" fanst="0.79" tscr="1"/>
+  <v att="36" scr="0.00" fans="A" ans="A" tm="0.25" id="#901F3AB5" lto="" fanst="48.28" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="2.72" id="#90C26A38" lto="" fanst="59.35" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="10.81" id="#91F68DEA" lto="" fanst="10.81" tscr="1"/>
+  <v att="11" scr="0.00" fans="A" ans="A" tm="0.02" id="#96F72D4C" lto="" fanst="41.18" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="5.99" id="#97482DF2" lto="" fanst="18.50" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="0.10" id="#97A07047" lto="" fanst="0.10" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="13.18" id="#97A98AB4" lto="" fanst="13.18" tscr="1"/>
+  <v att="7" scr="0.00" fans="C" ans="A" tm="39.85" id="#97D6B6F7" lto="" fanst="43.62" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="7.64" id="#97D8B2FD" lto="" fanst="7.64" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="5.28" id="#9841D801" lto="" fanst="5.28" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="14.41" id="#9842E238" lto="" fanst="14.41" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="A" tm="15.29" id="#9843F42F" lto="" fanst="43.93" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="6.56" id="#984504D9" lto="" fanst="12.20" tscr="1"/>
+  <v att="9" scr="0.00" fans="A" ans="A" tm="10.28" id="#98649864" lto="" fanst="21.25" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="1.83" id="#986F1BEC" lto="" fanst="1.83" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="33.19" id="#98EE4A3C" lto="" fanst="33.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="D" ans="D" tm="13.82" id="#990EB522" lto="" fanst="13.82" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="31.18" id="#990ED443" lto="" fanst="31.18" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="A" tm="28.51" id="#990F1E88" lto="" fanst="50.91" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="1.19" id="#990F32A4" lto="" fanst="13.39" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="33.39" id="#990FC056" lto="" fanst="33.39" tscr="1"/>
+  <v att="14" scr="0.00" fans="E" ans="A" tm="1.84" id="#990FE97F" lto="" fanst="43.26" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="10.19" id="#99101891" lto="" fanst="16.60" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="31.98" id="#991055DC" lto="" fanst="31.98" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="8.43" id="#99124AC1" lto="" fanst="8.43" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="14.50" id="#993A69CA" lto="" fanst="15.18" tscr="1"/>
+  <v att="8" scr="0.00" fans="A" ans="A" tm="0.17" id="#9946F52A" lto="" fanst="27.31" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="0.81" id="#9990BAB3" lto="" fanst="4.64" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="37.37" id="#99D3C48E" lto="" fanst="37.37" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="0.03" id="#9AB383AA" lto="" fanst="1.41" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="9.58" id="#9ADCEDAB" lto="" fanst="9.58" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="21.65" id="#9AF4ADC3" lto="" fanst="21.65" tscr="1"/>
+  <v att="4" scr="0.00" fans="D" ans="A" tm="18.95" id="#9B0265FC" lto="" fanst="30.78" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="3.20" id="#9B22DA63" lto="" fanst="58.25" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="0.59" id="#9C80A8B4" lto="" fanst="0.59" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="0.11" id="#9CF7640F" lto="" fanst="10.79" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="2.94" id="#9D0C0F9E" lto="" fanst="2.94" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="12.79" id="#9D14BC35" lto="" fanst="59.26" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="23.33" id="#9D270FB5" lto="" fanst="60.47" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="A" tm="1.62" id="#9E4F8352" lto="" fanst="9.90" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="25.18" id="#A0079037" lto="" fanst="25.18" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="A" tm="9.82" id="#A051DE2F" lto="" fanst="16.44" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="40.48" id="#A05624D2" lto="" fanst="40.48" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="42.20" id="#A0681FD7" lto="" fanst="42.20" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="A" tm="19.79" id="#A06E0CC2" lto="" fanst="59.66" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="9.18" id="#A0713AEB" lto="" fanst="59.51" tscr="1"/>
+  <v att="17" scr="0.00" fans="A" ans="A" tm="0.22" id="#A073EA39" lto="" fanst="11.19" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="16.82" id="#A0818CAD" lto="" fanst="16.82" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="1.95" id="#A087E2C5" lto="" fanst="6.46" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="1.19" id="#A0960137" lto="" fanst="59.26" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="0.22" id="#A09D6A57" lto="" fanst="2.62" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="24.96" id="#A0AB101B" lto="" fanst="24.96" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="4.93" id="#A0AB1D16" lto="" fanst="4.93" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="28.25" id="#A0ADF9F4" lto="" fanst="28.25" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="14.19" id="#A0B81B03" lto="" fanst="17.23" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="46.84" id="#A0CE1E70" lto="" fanst="46.84" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="C" tm="4.19" id="#A0D75324" lto="" fanst="51.24" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="3.18" id="#A0D782F5" lto="" fanst="3.18" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="15.79" id="#A0D8156D" lto="" fanst="15.79" tscr="1"/>
+  <v att="12" scr="0.00" fans="B" ans="A" tm="7.70" id="#A0E81E56" lto="" fanst="57.64" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="C" tm="13.18" id="#A0EF256A" lto="" fanst="58.67" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="5.18" id="#A0EF9ED1" lto="" fanst="56.19" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="A" tm="11.67" id="#A0F5FEAB" lto="" fanst="43.58" tscr="1"/>
+  <v att="6" scr="0.00" fans="A" ans="A" tm="14.40" id="#A0FBA8F3" lto="" fanst="54.54" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="25.00" id="#A0FF035C" lto="" fanst="25.00" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="A" tm="56.08" id="#A0FF1D42" lto="" fanst="60.25" tscr="1"/>
+  <v att="5" scr="0.00" fans="A" ans="A" tm="28.95" id="#A14CD538" lto="" fanst="59.26" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="C" tm="16.32" id="#A1CE6D02" lto="" fanst="42.69" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="A" tm="9.59" id="#A2368410" lto="" fanst="11.31" tscr="1"/>
+  <v att="3" scr="0.00" fans="A" ans="C" tm="0.60" id="#A3551EE8" lto="" fanst="56.69" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="4.66" id="#A3DBF981" lto="" fanst="26.60" tscr="1"/>
+  <v att="" scr="" fans="" ans="" tm="" id="#A562F93E" lto="" fanst="" tscr="0"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="35.43" id="#A5A2FFF8" lto="" fanst="35.43" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="14.56" id="#A7910630" lto="" fanst="14.56" tscr="1"/>
+  <v att="15" scr="0.00" fans="A" ans="A" tm="3.42" id="#A7ADF7FD" lto="" fanst="32.58" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="15.18" id="#A7BB9E82" lto="" fanst="15.18" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="A" tm="31.18" id="#A7C76C0C" lto="" fanst="52.29" tscr="1"/>
+ </p>
+ <p resp_c="26||0.00" isDel="N" isap="N" quuid="00000000-0000-0000-0000-000000000000" sig="16" anypt="0" stp="13:42:17" idx="4" resp_b="67||0.00" resp_a="4||0.00" isspp="N" anspt="1" cans="B" strt="13:39:46" qn="Question 4" resp_d="0||0.00" resp_e="0||0.00" qType="MC">
+  <v att="2" scr="0.00" fans="A" ans="C" tm="132.85" id="#0FF2AB56" lto="" fanst="141.49" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="B" tm="19.81" id="#18F6EB05" lto="" fanst="44.19" tscr="1"/>
+  <v att="7" scr="0.00" fans="B" ans="B" tm="104.89" id="#32F4DD1B" lto="" fanst="146.82" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="1.18" id="#33692278" lto="" fanst="72.58" tscr="1"/>
+  <v att="23" scr="0.00" fans="C" ans="C" tm="31.58" id="#359952FE" lto="" fanst="73.91" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="10.65" id="#37025267" lto="" fanst="10.65" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="42.27" id="#38076857" lto="" fanst="99.78" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="C" tm="88.60" id="#3AD27F97" lto="" fanst="137.74" tscr="1"/>
+  <v att="10" scr="0.00" fans="B" ans="B" tm="15.51" id="#3B7B5D1D" lto="" fanst="32.94" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="0.54" id="#81169700" lto="" fanst="8.84" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="0.00" id="#8181C0C0" lto="" fanst="78.91" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="30.55" id="#844F18D3" lto="" fanst="30.55" tscr="1"/>
+  <v att="19" scr="0.00" fans="C" ans="B" tm="0.39" id="#85544293" lto="" fanst="71.23" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="B" tm="1.18" id="#863D5FE4" lto="" fanst="24.83" tscr="1"/>
+  <v att="6" scr="0.00" fans="A" ans="A" tm="15.90" id="#88E085ED" lto="" fanst="66.86" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="3.43" id="#8A20C66C" lto="" fanst="3.43" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="B" tm="0.76" id="#8B5DE036" lto="" fanst="65.99" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="54.96" id="#8DEEA3C0" lto="" fanst="54.96" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="4.36" id="#8ECE1D5D" lto="" fanst="147.67" tscr="1"/>
+  <v att="6" scr="0.00" fans="C" ans="B" tm="4.19" id="#9006AE38" lto="" fanst="144.58" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="68.19" id="#901443C7" lto="" fanst="142.57" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="24.77" id="#90145EDA" lto="" fanst="145.27" tscr="1"/>
+  <v att="63" scr="0.00" fans="B" ans="B" tm="0.14" id="#901F3AB5" lto="" fanst="148.86" tscr="1"/>
+  <v att="9" scr="0.00" fans="C" ans="B" tm="0.61" id="#90C26A38" lto="" fanst="146.62" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="44.83" id="#91F68DEA" lto="" fanst="44.83" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="B" tm="4.70" id="#96F72D4C" lto="" fanst="62.53" tscr="1"/>
+  <v att="6" scr="0.00" fans="C" ans="C" tm="17.76" id="#97482DF2" lto="" fanst="146.26" tscr="1"/>
+  <v att="5" scr="0.00" fans="B" ans="B" tm="17.18" id="#97A07047" lto="" fanst="116.70" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="C" tm="0.45" id="#97A98AB4" lto="" fanst="141.34" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="27.19" id="#97D6B6F7" lto="" fanst="108.30" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="95.82" id="#97D8B2FD" lto="" fanst="95.82" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="23.18" id="#9841D801" lto="" fanst="138.25" tscr="1"/>
+  <v att="13" scr="0.00" fans="C" ans="B" tm="0.59" id="#9842E238" lto="" fanst="147.31" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="B" tm="11.78" id="#9843F42F" lto="" fanst="140.24" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="45.68" id="#984504D9" lto="" fanst="127.51" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="3.30" id="#98649864" lto="" fanst="3.30" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="101.30" id="#986F1BEC" lto="" fanst="101.30" tscr="1"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="3.18" id="#98EE4A3C" lto="" fanst="3.18" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="40.75" id="#990EB522" lto="" fanst="40.75" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="B" tm="7.19" id="#990ED443" lto="" fanst="42.31" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="22.97" id="#990F1E88" lto="" fanst="147.26" tscr="1"/>
+  <v att="14" scr="0.00" fans="B" ans="B" tm="0.30" id="#990F32A4" lto="" fanst="63.23" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="1.25" id="#990FC056" lto="" fanst="1.25" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="12.31" id="#990FE97F" lto="" fanst="50.29" tscr="1"/>
+  <v att="8" scr="0.00" fans="A" ans="C" tm="0.40" id="#99101891" lto="" fanst="140.24" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="C" tm="74.37" id="#991055DC" lto="" fanst="79.61" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="C" tm="53.34" id="#99124AC1" lto="" fanst="70.27" tscr="1"/>
+  <v att="13" scr="0.00" fans="C" ans="C" tm="4.83" id="#993A69CA" lto="" fanst="142.47" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="B" tm="32.21" id="#9946F52A" lto="" fanst="143.24" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="A" tm="25.58" id="#9990BAB3" lto="" fanst="46.39" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="C" tm="26.64" id="#99D3C48E" lto="" fanst="147.26" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="5.80" id="#9AB383AA" lto="" fanst="148.04" tscr="1"/>
+  <v att="10" scr="0.00" fans="C" ans="B" tm="5.43" id="#9ADCEDAB" lto="" fanst="114.87" tscr="1"/>
+  <v att="" scr="" fans="" ans="" tm="" id="#9AF4ADC3" lto="" fanst="" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="13.86" id="#9B0265FC" lto="" fanst="40.45" tscr="1"/>
+  <v att="9" scr="0.00" fans="B" ans="B" tm="5.81" id="#9B22DA63" lto="" fanst="144.28" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="B" tm="41.30" id="#9C80A8B4" lto="" fanst="61.18" tscr="1"/>
+  <v att="5" scr="0.00" fans="B" ans="B" tm="3.55" id="#9CF7640F" lto="" fanst="75.18" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="B" tm="28.96" id="#9D0C0F9E" lto="" fanst="146.41" tscr="1"/>
+  <v att="6" scr="0.00" fans="A" ans="B" tm="4.37" id="#9D14BC35" lto="" fanst="119.20" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="B" tm="0.77" id="#9D270FB5" lto="" fanst="140.97" tscr="1"/>
+  <v att="63" scr="0.00" fans="B" ans="B" tm="25.51" id="#9E4F8352" lto="" fanst="150.27" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="A" tm="25.61" id="#A0079037" lto="" fanst="138.41" tscr="1"/>
+  <v att="7" scr="0.00" fans="A" ans="B" tm="0.71" id="#A051DE2F" lto="" fanst="147.94" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="23.80" id="#A05624D2" lto="" fanst="101.10" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="46.18" id="#A0681FD7" lto="" fanst="46.18" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="B" tm="39.21" id="#A06E0CC2" lto="" fanst="92.18" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="53.55" id="#A0713AEB" lto="" fanst="142.80" tscr="1"/>
+  <v att="37" scr="0.00" fans="C" ans="B" tm="1.18" id="#A073EA39" lto="" fanst="145.81" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="C" tm="2.96" id="#A0818CAD" lto="" fanst="109.74" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="83.69" id="#A087E2C5" lto="" fanst="137.80" tscr="1"/>
+  <v att="3" scr="0.00" fans="B" ans="B" tm="20.74" id="#A0960137" lto="" fanst="144.72" tscr="1"/>
+  <v att="7" scr="0.00" fans="B" ans="B" tm="1.53" id="#A09D6A57" lto="" fanst="146.33" tscr="1"/>
+  <v att="1" scr="0.00" fans="A" ans="A" tm="41.60" id="#A0AB101B" lto="" fanst="41.60" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="B" tm="0.53" id="#A0AB1D16" lto="" fanst="70.44" tscr="1"/>
+  <v att="5" scr="0.00" fans="C" ans="B" tm="64.90" id="#A0ADF9F4" lto="" fanst="138.25" tscr="1"/>
+  <v att="17" scr="0.00" fans="B" ans="C" tm="2.29" id="#A0B81B03" lto="" fanst="150.04" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="32.57" id="#A0CE1E70" lto="" fanst="148.26" tscr="1"/>
+  <v att="18" scr="0.00" fans="C" ans="C" tm="12.34" id="#A0D75324" lto="" fanst="144.18" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="C" tm="36.53" id="#A0D782F5" lto="" fanst="142.24" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="53.51" id="#A0D8156D" lto="" fanst="53.51" tscr="1"/>
+  <v att="59" scr="0.00" fans="B" ans="B" tm="0.74" id="#A0E81E56" lto="" fanst="66.71" tscr="1"/>
+  <v att="4" scr="0.00" fans="A" ans="C" tm="5.62" id="#A0EF256A" lto="" fanst="107.29" tscr="1"/>
+  <v att="5" scr="0.00" fans="D" ans="C" tm="18.98" id="#A0EF9ED1" lto="" fanst="139.00" tscr="1"/>
+  <v att="4" scr="0.00" fans="C" ans="B" tm="0.74" id="#A0F5FEAB" lto="" fanst="71.52" tscr="1"/>
+  <v att="2" scr="0.00" fans="B" ans="B" tm="23.18" id="#A0FBA8F3" lto="" fanst="140.89" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="98.99" id="#A0FF035C" lto="" fanst="98.99" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="50.18" id="#A0FF1D42" lto="" fanst="145.67" tscr="1"/>
+  <v att="4" scr="0.00" fans="B" ans="B" tm="7.19" id="#A14CD538" lto="" fanst="138.90" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="0.29" id="#A1CE6D02" lto="" fanst="0.29" tscr="1"/>
+  <v att="7" scr="0.00" fans="A" ans="B" tm="3.19" id="#A2368410" lto="" fanst="104.82" tscr="1"/>
+  <v att="2" scr="0.00" fans="A" ans="B" tm="11.28" id="#A3551EE8" lto="" fanst="26.22" tscr="1"/>
+  <v att="6" scr="0.00" fans="B" ans="B" tm="36.18" id="#A3DBF981" lto="" fanst="143.24" tscr="1"/>
+  <v att="" scr="" fans="" ans="" tm="" id="#A562F93E" lto="" fanst="" tscr="0"/>
+  <v att="1" scr="0.00" fans="C" ans="C" tm="78.21" id="#A5A2FFF8" lto="" fanst="78.21" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="7.72" id="#A7910630" lto="" fanst="7.72" tscr="1"/>
+  <v att="1" scr="0.00" fans="B" ans="B" tm="111.65" id="#A7ADF7FD" lto="" fanst="111.65" tscr="1"/>
+  <v att="2" scr="0.00" fans="C" ans="B" tm="44.85" id="#A7BB9E82" lto="" fanst="65.56" tscr="1"/>
+  <v att="3" scr="0.00" fans="C" ans="C" tm="15.39" id="#A7C76C0C" lto="" fanst="145.26" tscr="1"/>
+ </p>
+</ssn>
